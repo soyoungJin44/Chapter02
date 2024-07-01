@@ -28,8 +28,7 @@ public class Point {
 	}
 	
 	public void draw() {
-		System.out.print("점[x= " + getX() + "],");
-		System.out.println("점[y= " + getY() +"]를 그렸습니다." );
+		System.out.println("점[x= " + getX() + "],점[y= " + getY() +"]를 그렸습니다.");
 	}
 	
 	
