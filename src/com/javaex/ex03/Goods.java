@@ -9,8 +9,8 @@ public class Goods {
 	//<생성자>
 	
 	//<메소드>
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name; //this.name>>선언한 String name을 뜻함. 대입할 name은 입력받을값을 뜻함
 	}
 	
 	public String getName() {
@@ -19,8 +19,8 @@ public class Goods {
 	
 	
 	//가격저장
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	//가격읽기

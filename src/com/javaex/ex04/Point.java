@@ -11,19 +11,19 @@ public class Point {
 	
 	//메서드
 	//<좌표 받을곳>
-	public void setX(int num1) {
+	public void setX(int x) {
 		//로직 짜는곳
-		x = num1;
+		this.x = x;
 	}
 	//<좌표 읽을곳>
 	public int getX() {
 		//로직 짜는곳
 		return x;
 	}
-	public void setY(int num2) {
-		y = num2;
+	public void setY(int y) { //setter
+		this.y = y;
 	}
-	public int getY() {
+	public int getY() { //getter
 		return y;
 	}
 	
