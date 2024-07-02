@@ -4,10 +4,11 @@ public class SongApp {
 
 	public static void main(String[] args) {
 
-		Song music1 = new Song();
-		Song music2 = new Song();
-		Song music3 = new Song();
+		Song music1 = new Song("좋은날","아이유","Real","이민수",2010,3);
+		Song music2 = new Song("거짓말","BIGBANG","Always","G-DRAGON",2007,2);
+		Song music3 = new Song("벛꽃엔딩","버스커버스커","버스커버스커1집","장범준",2012,4);
 		
+		/*
 		music1.setTitle("좋은날");
 		music1.setArtist("아이유");
 		music1.setAlbum("Real");
@@ -33,6 +34,10 @@ public class SongApp {
 		music3.setTrack(4);
 		music3.setComposer("장범준");
 		
+		music3.showInfo();
+		*/
+		music1.showInfo();
+		music2.showInfo();
 		music3.showInfo();
 		
 	

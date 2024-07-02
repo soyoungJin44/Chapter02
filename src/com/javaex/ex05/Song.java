@@ -13,7 +13,19 @@ public class Song {
 	
 	//<생성자>
 	//** 메모리에 올라간 부분에서 끊어서 표현x, 일렬로 한줄로 짤수있는 코드는 생성자에서 작성한다.
-	
+	/*
+	public Song() {
+		
+	}
+	*/
+	public Song(String title, String artist, String album, String composer, int year, int track) {
+		this.title = title;
+		this.artist = artist;
+		this.album = album;
+		this.composer = composer;
+		this.year = year;
+		this.track = track;
+	}
 	
 	//<메서드>
 	// [art + shift + s]
