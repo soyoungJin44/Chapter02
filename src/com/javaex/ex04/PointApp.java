@@ -16,6 +16,10 @@ public class PointApp {
 		B.setY(23);
 		
 		B.draw();
+		
+		
+		
+		
 	}
 
 }
