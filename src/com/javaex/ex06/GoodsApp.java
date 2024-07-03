@@ -6,7 +6,7 @@ public class GoodsApp {
 
 		//
 		
-		Goods computer = new Goods(); //Goods() >>생성자에서 부른부분.
+		Goods computer = new Goods(); //<Goods();> =>>자체가 생성자에서 부른부분.(디폴트생성자)
 		computer.setName("LG그램");
 		computer.setPrice(1000000);
 		
