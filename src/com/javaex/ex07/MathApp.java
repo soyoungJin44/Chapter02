@@ -13,8 +13,6 @@ public class MathApp {
 		System.out.println(math.Plus(1,2.5));
 		
 		
-		
-		
 	}
 
 }
