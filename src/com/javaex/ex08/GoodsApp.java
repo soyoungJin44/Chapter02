@@ -12,6 +12,7 @@ public class GoodsApp {
 		Goods computer = new Goods("LG그램",1000000);
 		Goods cup = new Goods("머그컵",2000);
 		
+		//배열에 상품주소 추가
 		goodsArray[0] = computer;
 		goodsArray[1] = cup;
 		
@@ -24,6 +25,18 @@ public class GoodsApp {
 	
 		System.out.println(computer.getName());
 		System.out.println(goodsArray[0].getName());
+		System.out.println("====================");
+		
+		for(int i=0; i<goodsArray.length;i++) {
+			System.out.println(goodsArray[i].getName());
+		}
+		for(int i=0; i<goodsArray.length;i++) {
+			System.out.println(goodsArray[i].getPrice());
+		}
+		System.out.println("===============");
+		for(int i=0; i<goodsArray.length;i++) {
+			System.out.println(goodsArray[i].getName() +": " + goodsArray[i].getPrice());
+		}
 	}
 
 }
