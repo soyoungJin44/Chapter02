@@ -5,7 +5,7 @@ public class Goods {
 	private String neme;
 	private int price;
 	// private int count; >> name 처럼 한번씩 찍어서 쓸거야
-	private static int count; // >>[static]
+	private static int count; // >>[static]  
 
 	//생성자
 	public Goods() {

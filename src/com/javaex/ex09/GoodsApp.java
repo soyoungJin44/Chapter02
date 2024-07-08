@@ -19,5 +19,6 @@ public class GoodsApp {
 		//보통 sout에 변수이름으로 호출하기때문에 소문자인경우가 많은데, 대문자일경우 Static을 사용했나 확인가능(class이름으로 호출하기때문에)
 		
 		
+		
 	}
 }
