@@ -22,6 +22,13 @@ public class ShapeApp {
 			dArray[i].draw();
 		}
 		
+		System.out.println(((Shape)r01).area() );   //Share로 형변환 후 해당 내용 출력
+		System.out.println(((Shape)c01).lineColor);
+		
+		for(int i=0; i<dArray.length; i++) {		//Point 때문에 에러감
+			if(dArray[i] instanceof Shape)
+			System.out.println(((Shape)dArray[i]).area());
+		}
 		
 	}
 
