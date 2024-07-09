@@ -10,10 +10,11 @@ public class ShapeApp {
 		*/
 		
 		Shape[] sArray = new Shape[3];
+		Shape[] cArray = new Shape[1];
 		
 		
 		//사각형
-		Shape r01 = new Rectangle (3,5,"빨강","파랑");   //Rectangle형 객체 r01 을 Shape형으로 형변환 해준 후 배열에 넣기 위해서.
+		Shape r01 = new Rectangle (3,5,"빨강","파랑");   //Rectangle형 객체 r01 을 Shape형으로 형변환 해준 후 배열에 넣기 위해서. (섞어쓰기)
 		Shape r02 = new Rectangle (3,7,"빨강","파랑");
 		Shape r03 = new Rectangle (0,4,"빨강","파랑");
 		
@@ -21,6 +22,7 @@ public class ShapeApp {
 		sArray[1] = r02;
 		sArray[2] = r03;
 		
+		//Shape c01 = new Circle(5,"보라","하늘");
 		
 		//System.out.println(r01.toString());
 		//r01.showInfo();
