@@ -18,7 +18,7 @@ public class Ex01 {
 			System.out.println(e.toString());		// 오류부분에 java.lang.~~~~~ 여기서 설정된 toString 멘트임 
 			System.out.println("0으로 나눌 수 없습니다.");
 		}finally {
-			System.out.println("공통인 영역");			//생략 가능
+			System.out.println("공통인 영역");			//finally 부분 생략 가능
 		}
 		
 		System.out.println("프로그램 종료");
